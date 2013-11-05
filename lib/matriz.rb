@@ -1,6 +1,6 @@
 class Matriz
   
-  attr_accesor :filas, :columnas, :matriz
+  attr_accessor :filas, :columnas, :matriz
     
   def initialize(m)
     @filas=m.size
@@ -26,7 +26,7 @@ class Matriz
   
   #Resta de matrices
   
-  def -(other)
+  def - (other)
     i=0
       m_copia = @matriz
 	while i < @filas
