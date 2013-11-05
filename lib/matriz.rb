@@ -26,7 +26,7 @@ class Matriz
   
   #Resta de matrices
   
-  def -(other)
+  def - (other)
     i=0
       m_copia = @matriz
 	while i < @filas
