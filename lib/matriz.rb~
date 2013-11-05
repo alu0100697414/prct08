@@ -1,0 +1,28 @@
+class Matriz
+  
+  attr_accesor :filas, :columnas, :matriz
+    
+  def initialize(m)
+    @filas=m.size
+    @columnas=m[1].size
+    @matriz = m
+  end
+  
+  #Suma de matrices
+  
+  def + (other)
+    i=0
+      copia = @matriz
+	while i < @filas
+	  j=0
+	  while j < columnas
+	    copia[i][j] = copia[i][j] + other.matriz[i][j]
+	      j += 1
+	  end
+	  i += 1
+	end
+	Matriz.new(copia)
+  end
+  
+  
+end
