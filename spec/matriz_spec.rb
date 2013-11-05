@@ -7,8 +7,8 @@ describe Matriz do
   end
 
   it "Se debe poder sumar dos matrices" do
-  @aux = Matriz.new([[1,2,3],[1,2,3],[1,2,3]])
-  (@matriz + @aux).matriz.should == [[2,4,6],[2,4,6],[2,4,6]]
+    @aux = Matriz.new([[1,2,3],[1,2,3],[1,2,3]])
+    (@matriz + @aux).matriz.should == [[2,4,6],[2,4,6],[2,4,6]]
   end
 
 end

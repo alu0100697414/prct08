@@ -1,7 +1,9 @@
 class Matriz
   
-  attr_accesor :filas, :columnas, :matriz
-    
+  attr_accessor :filas, :columnas, :matriz
+ 
+  include Comparable
+ 
   def initialize(m)
     @filas=m.size
     @columnas=m[1].size
