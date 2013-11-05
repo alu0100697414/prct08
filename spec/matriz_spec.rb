@@ -18,7 +18,7 @@ describe Matriz do
 
   it "Se debe poder multiplicar dos matrices" do
     @aux = Matriz.new([[1,2,3],[1,2,3],[1,2,3]])
-    (@matriz * @aux).matriz.should == [[1,4,9],[1,4,9],[1,4,9]]
+    (@matriz * @aux).matriz.should == [[6,12,18],[6,12,18],[6,12,18]]
   end
 
 end

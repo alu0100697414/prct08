@@ -40,7 +40,7 @@ class Matriz
 	Matriz.new(m_copia)
   end
   
-end
+
 
   #Multiplicacion de matrices
 
@@ -53,7 +53,7 @@ end
 		  m_copia[i][j] = 0
 		  k = 0
 		    while k < @columnas
-		      m_copia[i][j] = m_copia[i][j] + (matriz[i][k]*other.matriz[k][j])
+		      m_copia[i][j] = m_copia[i][j] + (matriz[i][k] * other.matriz[k][j])
 		      k += 1
 		    end
 		    j +=1
@@ -62,5 +62,4 @@ end
       end
       Matriz.new(m_copia)
   end
-end
-  
+end  
