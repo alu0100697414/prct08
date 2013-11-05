@@ -11,4 +11,9 @@ describe Matriz do
     (@matriz + @aux).matriz.should == [[2,4,6],[2,4,6],[2,4,6]]
   end
 
+  it "Se debe poder restar dos matrices" do
+    @aux = Matriz.new([[1,2,3],[1,2,3],[1,2,3]])
+    (@matriz - @aux).matriz.should == [[0,0,0],[0,0,0],[0,0,0]]
+  end
+
 end
