@@ -1,0 +1,9 @@
+Lo primero que hemos realizado es la creación del fichero Gemfile, donde dentro colocamos las gemas que vamos a utilizar para esta práctica, como es rake, guard, rspec y guard-rspec. 
+
+Posteriormente, creamos el fichero Guardfile, el cual se crea por defecto cuando inicializamos el guard con ‘guard init’.
+
+Después hemos creado el Rakefile donde hacemos referencia a los directorios de la práctica donde trabajaremos.
+
+Seguidamente, creamos los directorios de la práctica en los que vamos a trabajar, que son spec y lib. En este primero implementaremos el fichero matriz_spec.rb donde probaremos los test a realizar, mientras que en el segundo implementaremos el fichero matriz.rb e iremos inicializando poco a poco lo que implementemos en el fichero matriz_spec.rb
+
+Finalmente ya sólo queda ir implementando el spec y la clase Matriz a la par, siempre comprobando los test con el guard, de forma que estaríamos usando el desarrollo dirigido por pruebas.
